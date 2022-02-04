@@ -7,5 +7,7 @@ console.log (surrrname);
 const favcol = prompt ('Inserisci il tuo colore preferito');
 console.log (favcol);
 
-const psw = prompt ${nnname}${surrrname}${favcol}25;
+const psw = prompt '${nnname}${surrrname}${favcol}25';
 console.log (psw);
+
+document.getElementById('psw').innerHTML = psw;
