@@ -1,13 +1,13 @@
-const nnname = prompt ('Inserisci il tuo nome');
+const nnname = prompt('Inserisci il tuo nome');
 console.log (nnname);
 
-const surrrname = prompt ('Inserisci il tuo cognome');
+const surrrname = prompt('Inserisci il tuo cognome');
 console.log (surrrname);
 
-const favcol = prompt ('Inserisci il tuo colore preferito');
-console.log (favcol);
+const favCol = prompt('Inserisci il tuo colore preferito');
+console.log (favCol);
 
-const psw = prompt '${nnname}${surrrname}${favcol}25';
-console.log (psw);
+const nick = "Il tuo nickname è " + nnname + surrrname + favCol + " , ora cambia pure pagina perchè con questo nickname non ci farai altro :D";
+console.log (nick);
 
-document.getElementById('psw').innerHTML = psw;
+document.getElementById('nick').innerHTML = nick;
